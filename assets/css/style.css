@@ -103,6 +103,12 @@ h2, .h2{
 .fs-16{
     font-size: 16px;
 }
+.fs-19{
+    font-size: 19px;
+}
+.fs-20{
+    font-size: 20px;
+}
 .fs-21{
     font-size: 21px;
 }
@@ -115,8 +121,17 @@ h2, .h2{
 .fs-27{
     font-size: 27px;
 }
+.fs-28{
+    font-size: 28px;
+}
+.fs-32{
+    font-size: 32px;
+}
 .fs-64{
     font-size: 64px;
+}
+.fs-70{
+    font-size: 70px;
 }
 /* 01 */
 
@@ -159,7 +174,11 @@ h2, .h2{
     background-color: transparent;
     border-color: #636363;
 }
-
+.btn-secondary{
+        color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
 
 
 /* pages css start */
@@ -175,12 +194,250 @@ h2, .h2{
     font-family: "Manjari", sans-serif;
     padding: 0 !important;
 }
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active{
+    color: #353535;
+}
 .navbar-nav>li+li {
     margin-left: 40px;
 }
+
+
+
+
+
 .welcome-bg{
     background-image: url(../images/welcome-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.form-group input{
+    height: 50px;
+}
+.form-group input::placeholder, .form-group textarea::placeholder{
+    color: #000;
+}
+.form-group textarea{
+    height: 80px;
+}
+.submit-btn {
+    padding: 16px 80px;
+}
+.footer-bx ul li a, .footer-bx ul li {
+      color: #ffffff;
+  font-size: 22px;
+  line-height: 40px;
+  font-weight: 400;
+}
+.footer-bx ul li a:hover{
+    color: #000;
+}
+.newsletter-group{
+    height: 60px;
+}
+.newsletter-group button {
+    right: 15px !important;
+}
+
+@media(min-width:991px){
+    div#offcanvasExample {
+        position: inherit !important;
+        flex-direction: row;
+        visibility: visible;
+        width: auto;
+        transform: translateX(0%);
+        border-right: 0;
+        margin-left: 0;
+    }
+    
+}
+@media(max-width:1500px){
+    .navbar-brand {
+    width: 145px;
+}
+.navbar-nav .nav-link {
+    font-size: 20px;
+}
+.navbar-nav>li+li {
+    margin-left: 25px;
+}
+.fs-24 {
+    font-size: 18px;
+}
+.btn {
+    padding: 1px 15px;
+    font-size: 18px;
+    line-height: 28px;
+}
+h2, .h2 {
+    font-size: 58px;
+}
+.fs-26 {
+    font-size: 20px;
+}
+.fs-27 {
+    font-size: 22px;
+}
+.fs-64 {
+    font-size: 45px;
+}
+.fs-21 {
+    font-size: 16px;
+}
+.fs-70 {
+    font-size: 50px;
+}
+.fs-20 {
+    font-size: 16px;
+}
+.submit-btn {
+    padding: 12px 60px;
+}
+.fs-32 {
+    font-size: 25px;
+}
+.footer-bx ul li a, .footer-bx ul li {
+    font-size: 18px;
+    line-height: 35px;
+}
+.fs-28 {
+    font-size: 22px;
+}
+.newsletter-group {
+    height: 50px;
+}
+.fs-16 {
+    font-size: 14px;
+}
+}
+@media(max-width:1200px){
+    .navbar-nav .nav-link {
+    font-size: 17px;
+}
+.navbar-nav>li+li {
+    margin-left: 20px;
+}
+.navbar-brand {
+    width: 120px;
+}
+.fs-24 {
+    font-size: 16px;
+}
+.btn {
+    font-size: 16px;
+}
+h2, .h2 {
+    font-size: 38px;
+}
+.fs-26 {
+    font-size: 17px;
+}
+.fs-27 {
+    font-size: 17px;
+}
+.fs-64 {
+    font-size: 35px;
+}
+.fs-21 {
+    font-size: 14px;
+}
+.fs-70 {
+    font-size: 38px;
+}
+.fs-70 {
+    font-size: 38px;
+}
+.form-group input {
+    height: 45px;
+}
+.fs-19 {
+    font-size: 15px;
+}
+.form-group textarea {
+    height: 50px;
+}
+.fs-32 {
+    font-size: 20px;
+}
+.footer-bx ul li a, .footer-bx ul li {
+    font-size: 16px;
+    line-height: 30px;
+}
+.fs-28 {
+    font-size: 18px;
+}
+}
+
+@media(max-width:991px){
+    .navbar-toggler {
+    padding: 0;
+    font-size: 20px;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-nav {
+    width: 100%;
+    padding: 50px;
+}
+.navbar-nav>li+li {
+    margin-left: 0;
+}
+.navbar-nav .nav-link {
+    padding: 9px 0 !important;
+}
+.offcanvas-start {
+    width: 300px;
+}
+button.btn-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+/* div#offcanvasExample {
+    position: fixed !important;
+    flex-direction: column;
+    visibility: hidden;
+    width: 300px;
+    transform: translateX(-100%);
+    border-right: 1px;
+    margin-left: 0;
+} */
+}
+
+
+@media(max-width:575px){
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    h2, .h2 {
+    font-size: 30px;
+}
+.fs-26 {
+    font-size: 15px;
+}
+.fs-64 {
+    font-size: 28px;
+}
+.fs-70 {
+    font-size: 32px;
+}
+.footer-bx.w-50 {
+    width: 100% !important;
+}
+.btn {
+    padding: 0px 8px;
+    font-size: 14px;
+    line-height: 27px;
+}
+.navbar-toggler {
+    font-size: 17px;
+}
+.navbar-brand {
+    width: 90px;
+}
+.submit-btn {
+    padding: 12px 60px;
+}
 }

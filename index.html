@@ -1,233 +1,465 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/slick-theme.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" type="image/icon" href="assets/images/favicon.png">
-
-    <title>Trust Point Estate Planning Services</title>
-</head>
-<body >
-
-
-<header>
-    <nav class="navbar navbar-expand-lg  ">
-        <div class="container">
-          <a class="navbar-brand p-0 m-0" href="index.html"><img src="assets/images/logo.svg" alt="Site Logo" class="img-fluid w-100"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="nav-right d-flex align-items-center">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active"  href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Wills</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">LPA's</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Trusts</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Later life planning </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact us </a>
-                  </li>
-    
-                </ul>
-    
-              </div>
-              <div class="cta-btns ms-4 d-flex align-content-center">
-                <a href="tel:01615243368" class="fs-24 ls-100 fw-normal text-uppercase ffa text-secondary">
-                    <img src="assets/images/call-icon.svg" alt="Call icon" class="img-fluid">
-                    01615243368
-                </a> 
-                <a href="#" class="btn btn-dark ms-3">
-                    Get in touch
-                </a>
-              </div>
-          </div>
-        </div>
-      </nav>
-</header>
-
-<div class="banner-sec">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/images/hero-banner.jpg" class="d-block w-100 h-100 img-fluid object-cover" alt="hero-banner">
-          </div>
-        </div>
+   <head>
+      <meta charset="UTF-8" >
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+      <link href="assets/css/bootstrap.min.css" rel="stylesheet" >
+      <link rel="stylesheet" href="assets/css/animate.css">
+      <link rel="stylesheet" href="assets/css/style.css" >
+      <link rel="icon" type="image/icon" href="assets/images/favicon.png" >
+      <title>Trust Point Estate Planning Services</title>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-lg">
+            <div class="container">
+               <a class="navbar-brand p-0 m-0" href="index.html"
+                  ><img
+                  src="assets/images/logo.svg"
+                  alt="Site Logo"
+                  class="img-fluid w-100"
+                  ></a>
+               <div class="nav-right d-flex align-items-center">
+                  <div class="offcanvas offcanvas-start navbar-collapse"  tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                     <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                           <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Wills</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">LPA's</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Trusts</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Later life planning </a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Contact us </a>
+                        </li>
+                     </ul>
+                     <button type="button" class="btn-close text-reset d-block d-lg-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="cta-btns ms-4 d-flex align-content-center">
+                     <a
+                        href="tel:01615243368"
+                        class="fs-24 ls-100 fw-normal text-uppercase ffa text-secondary"
+                        >
+                     <img
+                        src="assets/images/call-icon.svg"
+                        alt="Call icon"
+                        class="img-fluid"
+                        >
+                     <span class="d-none d-sm-inline-block"> 01615243368</span>
+                     </a>
+                     <a href="#" class="btn btn-dark ms-sm-3 ms-3"> Get in touch </a>
+                     <button
+                        class="navbar-toggler  ms-3"
+                        type="button"
+                        data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"
+                        >
+                     <span class="navbar-toggler-icon">
+                     <img src="assets/images/menu.png" alt="menu" class="img-fluid">
+                     </span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <div class="banner-sec">
+         <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            >
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img
+                     src="assets/images/hero-banner.jpg"
+                     class="d-block w-100 h-100 img-fluid object-cover"
+                     alt="hero-banner"
+                     >
+               </div>
+            </div>
+         </div>
       </div>
-</div>
-
-<div class="welcome-sec py-4">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 welcome-bg">
-                <div class="welcome-wrap py-5  pe-5">
-                    <div class="welcome-text">
+      <div class="welcome-sec py-4">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6 welcome-bg">
+                  <div class="welcome-wrap py-md-5 py-3 pe-md-5 wow animate__slideInUp" >
+                     <div class="welcome-text">
                         <h2 class="fw-normal mb-4">
-                            Home is Where
-                            Your Heart Finds Its Mortgage.
+                           Home is Where Your Heart Finds Its Mortgage.
                         </h2>
                         <p class="fs-26 fw-normal lh-1-5">
-                            At Trust Point Estate Planning, we understand that securing your future and protecting your loved ones is paramount.
-                            Our comprehensive services are designed to provide peace of mind at every stage of life, encompassing crucial elements such as detailed Later Life Planning and asset protection, meticulously crafted Last Will& Testament to ensure your wishes are honoured, strategic Will Trusts for effective inheritance management and protection, and robust Power of Attorney solutions to safeguard your interests in times of incapacity and need.
-
+                           At Trust Point Estate Planning, we understand that securing
+                           your future and protecting your loved ones is paramount. Our
+                           comprehensive services are designed to provide peace of mind
+                           at every stage of life, encompassing crucial elements such as
+                           detailed Later Life Planning and asset protection,
+                           meticulously crafted Last Will& Testament to ensure your
+                           wishes are honoured, strategic Will Trusts for effective
+                           inheritance management and protection, and robust Power of
+                           Attorney solutions to safeguard your interests in times of
+                           incapacity and need.
                         </p>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6 py-md-5">
+                  <div class="welcome-img h-100">
+                     <img
+                        src="assets/images/welcome-img.jpg"
+                        alt="Welcome img"
+                        class="img-fluid w-100 h-100 object-cover"
+                        >
+                  </div>
+               </div>
             </div>
-            <div class="col-md-6 py-5">
-                <div class="welcome-img h-100">
-                    <img src="assets/images/welcome-img.jpg" alt="Welcome img" class="img-fluid w-100 h-100 object-cover">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="services-sec py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="services-wrap">
-                    <div class="services-img">
-                        <img src="assets/images/services-01.jpg" alt="Services img" class="img-fluid w-100 h-100">
-                    </div>
-                    <div class="services-heading text-center border-bottom border-3 border-dark">
-                        <h4 class="fs-27 fw-normal mb-2 py-4">
-                            Estate planning services
+         </div>
+      </div>
+      <div class="services-sec py-5">
+         <div class="container">
+            <div class="row wow animate__slideInUp" >
+               <div class="col-md-3 my-3 my-md-0">
+                  <div class="services-wrap">
+                     <div class="services-img">
+                        <img
+                           src="assets/images/services-01.jpg"
+                           alt="Services img"
+                           class="img-fluid w-100 h-100"
+                           >
+                     </div>
+                     <div
+                        class="services-heading text-center border-bottom border-3 border-dark"
+                        >
+                        <h4 class="fs-27 fw-normal mb-2 py-md-4 py-3">
+                           Estate planning services
                         </h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="services-wrap">
-                    <div class="services-img">
-                        <img src="assets/images/services-02.jpg" alt="Services img" class="img-fluid w-100 h-100">
-                    </div>
-                    <div class="services-heading text-center border-bottom border-3 border-dark">
-                        <h4 class="fs-27 fw-normal mb-2 py-4">
-                            Wills
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 my-3 my-md-0">
+                  <div class="services-wrap">
+                     <div class="services-img">
+                        <img
+                           src="assets/images/services-02.jpg"
+                           alt="Services img"
+                           class="img-fluid w-100 h-100"
+                           >
+                     </div>
+                     <div
+                        class="services-heading text-center border-bottom border-3 border-dark"
+                        >
+                        <h4 class="fs-27 fw-normal mb-2 py-md-4 py-3">Wills</h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 my-3 my-md-0">
+                  <div class="services-wrap">
+                     <div class="services-img">
+                        <img
+                           src="assets/images/services-03.jpg"
+                           alt="Services img"
+                           class="img-fluid w-100 h-100"
+                          >
+                     </div>
+                     <div
+                        class="services-heading text-center border-bottom border-3 border-dark"
+                        >
+                        <h4 class="fs-27 fw-normal mb-2 py-md-4 py-3">Power of attorneys</h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 my-3 my-md-0">
+                  <div class="services-wrap">
+                     <div class="services-img">
+                        <img
+                           src="assets/images/services-04.jpg"
+                           alt="Services img"
+                           class="img-fluid w-100 h-100"
+                          >
+                     </div>
+                     <div
+                        class="services-heading text-center border-bottom border-3 border-dark"
+                        >
+                        <h4 class="fs-27 fw-normal mb-2 py-md-4 py-3">
+                           Trusts & later life planning
                         </h4>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <div class="col-md-3">
-                <div class="services-wrap">
-                    <div class="services-img">
-                        <img src="assets/images/services-03.jpg" alt="Services img" class="img-fluid w-100 h-100">
-                    </div>
-                    <div class="services-heading text-center border-bottom border-3 border-dark">
-                        <h4 class="fs-27 fw-normal mb-2 py-4">
-                            Power of attorneys
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="services-wrap">
-                    <div class="services-img">
-                        <img src="assets/images/services-04.jpg" alt="Services img" class="img-fluid w-100 h-100">
-                    </div>
-                    <div class="services-heading text-center border-bottom border-3 border-dark">
-                        <h4 class="fs-27 fw-normal mb-2 py-4">
-                            Trusts & later life planning
-                        </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="unique-sec overflow-hidden">
-    <div class="container-fluid p-0">
-        <div class="row">
-            <div class="col-md-7 p-0">
-                <div class="uniqe-wrap bg-dark d-flex align-items-center py-5 h-100">
-                    <div class="unique-text p-5 mx-5" >
+         </div>
+      </div>
+      <div class="unique-sec overflow-hidden">
+         <div class="container-fluid p-0">
+            <div class="row">
+               <div class="col-lg-7 p-0">
+                  <div
+                     class="uniqe-wrap bg-dark d-flex align-items-center py-xl-5 h-100 "
+                     >
+                     <div class="unique-text p-sm-5 p-4 mx-lg-5 wow animate__slideInUp">
                         <h3 class="fs-64 lh-1 ls-004 text-white mb-4 pb-3">
-                            Your Unique Home, <br>
-                            Your Tailored Mortgage.
+                           Your Unique Home, <br >
+                           Your Tailored Mortgage.
                         </h3>
                         <p class="fs-21 fw-normal text-white lh-1-4">
-                            We are dedicated to providing personalised guidance and expert support,
-                            empowering you to make informed decisions and create a legacy of security and
-                            stability for your loved ones..
-                            <br />
-                             
-                            <br />
-                            Don&#039;t leave your legacy and your wishes to chance, protecting your assets
-                            for future generations is an important part of later life planning.
-                            <br />
-                            Remember if you have not written your own will, the authorities will decide
-                            how and who should receive your assets according to the rules “laws of
-                            Intestacy”
+                           We are dedicated to providing personalised guidance and expert
+                           support, empowering you to make informed decisions and create
+                           a legacy of security and stability for your loved ones..
+                           <br >
+                            
+                           <br >
+                           Don&#039;t leave your legacy and your wishes to chance,
+                           protecting your assets for future generations is an important
+                           part of later life planning.
+                           <br >
+                           Remember if you have not written your own will, the
+                           authorities will decide how and who should receive your assets
+                           according to the rules “laws of Intestacy”
                         </p>
-                    </div>
-                </div>
-                
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-5 p-0">
+                  <div class="unique-img h-100">
+                     <img
+                        src="assets/images/unique-img.jpg"
+                        alt="Unique img"
+                        class="img-fluid h-100 w-100 object-cover"
+                       >
+                  </div>
+               </div>
             </div>
-            <div class="col-md-5 p-0">
-                <div class="unique-img h-100">
-                    <img src="assets/images/unique-img.jpg" alt="Unique img" class="img-fluid h-100 w-100 object-cover">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="unique-sec overflow-hidden">
-    <div class="container-fluid p-0">
-        <div class="row">
-
-            <div class="col-md-4 p-0">
-                <div class="unique-img h-100">
-                    <img src="assets/images/unique-img2.jpg" alt="Unique img" class="img-fluid h-100 w-100 object-cover">
-                </div>
-            </div>
-            <div class="col-md-8 p-0">
-                <div class="uniqe-wrap bg-secondary d-flex align-items-center py-5 h-100">
-                    <div class="unique-text p-5 mx-5 " >
+         </div>
+      </div>
+      <div class="unique-sec overflow-hidden">
+         <div class="container-fluid p-0">
+            <div class="row flex-row-reverse">
+               <div class="col-lg-8 p-0">
+                  <div
+                     class="uniqe-wrap bg-secondary d-flex align-items-center py-xl-5 h-100 "
+                     >
+                     <div class="unique-text p-sm-5 p-4 mx-lg-5 wow animate__slideInUp">
                         <h3 class="fs-64 lh-1 ls-004 text-white mb-4 pb-3">
-                            Last Will in Testament
+                           Last Will in Testament
                         </h3>
                         <p class="fs-21 fw-normal text-white lh-1-4">
-                            Although it can feel difficult to talk about what should happen after someone
-                            dies, open and frank conversations about wills and inheritance can make things
-                            a lot easier further down the line.If you die without making a will, your
-                            estate might be distributed in a way that you would not want and securing your
-                            loved one’s future and their protection.
-                            <br />
-                            A well-drafted will is essential for ensuring your assets are distributed
-                            according to your wishes. At Trust Point Estate Planning, we understand the
-                            importance of creating a clear and legally sound will.
-                            <br />
-                            Our experienced professionals will guide you through every step of the
-                            process, from understanding your options to ensuring your will is properly
-                            executed.
+                           Although it can feel difficult to talk about what should
+                           happen after someone dies, open and frank conversations about
+                           wills and inheritance can make things a lot easier further
+                           down the line.If you die without making a will, your estate
+                           might be distributed in a way that you would not want and
+                           securing your loved one’s future and their protection.
+                           <br >
+                           A well-drafted will is essential for ensuring your assets are
+                           distributed according to your wishes. At Trust Point Estate
+                           Planning, we understand the importance of creating a clear and
+                           legally sound will.
+                           <br >
+                           Our experienced professionals will guide you through every
+                           step of the process, from understanding your options to
+                           ensuring your will is properly executed.
                         </p>
-                    </div>
-                </div>
-                
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 p-0">
+                  <div class="unique-img h-100">
+                     <img
+                        src="assets/images/unique-img2.jpg"
+                        alt="Unique img"
+                        class="img-fluid h-100 w-100 object-cover"
+                        >
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-</div>
-<script src="assets/js/jquery-3.7.1.js" ></script>
-<script src="assets/js/slick.min.js"></script>
-<script src="assets/js/bootstrap.bundle.min.js" ></script>
-<script src="assets/js/custom.js"></script>
-
-</body>
+         </div>
+      </div>
+      <div class="contact-us py-5">
+         <div class="container py-sm-5">
+            <div class="contact-heading text-center wow animate__slideInUp">
+               <h3 class="fs-70 fw-600">Contact Us</h3>
+               <p class="fs-20 fw-normal lh-1-5">
+                  If you need to speak to us about a general query fill in the form
+                  and we will call you back within the same working day.
+               </p>
+            </div>
+            <form>
+               <div class="row wow animate__slideInUp">
+                  <div class="col-md-4 my-3">
+                     <div class="form-group">
+                        <input
+                           type="text"
+                           placeholder="Your Name*"
+                           class="form-control w-100 border-0 border-2 rounded-0 border-bottom border-dark fs-19 text-black-50"
+                           >
+                     </div>
+                  </div>
+                  <div class="col-md-4 my-3">
+                     <div class="form-group">
+                        <input
+                           type="email"
+                           placeholder="Your Email*"
+                           class="form-control w-100 border-0 border-2 rounded-0 border-bottom border-dark fs-19 text-black-50"
+                           >
+                     </div>
+                  </div>
+                  <div class="col-md-4 my-3">
+                     <div class="form-group">
+                        <input
+                           type="tel"
+                           placeholder="Your Phone*"
+                           class="form-control w-100 border-0 border-2 rounded-0 border-bottom border-dark fs-19 text-black-50"
+                           >
+                     </div>
+                  </div>
+                  <div class="col-md-12 my-3">
+                     <div class="form-group">
+                        <textarea
+                           placeholder="Your Message"
+                           class="form-control w-100 border-0 border-2 rounded-0 border-bottom border-dark fs-19 text-black-50"
+                           ></textarea>
+                     </div>
+                  </div>
+                  <div class="form-group text-center mt-5">
+                     <button type="submit"
+                        class="submit-btn rounded-pill text-uppercase btn btn-secondary"
+                        >
+                     Submit
+                     </button>
+                  </div>
+               </div>
+            </form>
+         </div>
+      </div>
+      <footer class="bg-secondary pt-5 ">
+         <div class="container wow animate__slideInUp">
+            <div class="row">
+               <div class="col-md-4 my-4 my-md-0">
+                  <div class="footer-wrap d-flex flex-wrap flex-sm-nowrap text-center text-sm-start">
+                     <div class="footer-bx w-50 mb-4 mb-sm-0">
+                        <h4 class="fs-32 fw-700 text-white mb-md-5 mb-4">
+                           Subjects
+                        </h4>
+                        <ul>
+                           <li>
+                              <a href="#">
+                              Home 
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              Wills 
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              LPA's 
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              Trusts 
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              Later life planning
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              Contact us
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="footer-bx w-50">
+                        <h4 class="fs-32 fw-700 text-white mb-md-5 mb-4">
+                           Contact Us
+                        </h4>
+                        <ul>
+                           <li>
+                              <a href="#">
+                              Contact
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              Terms of Use 
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              Privacy & Cookies 
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              FAQs
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 my-4 my-md-0">
+                  <div class="footer-wrap text-center text-sm-start">
+                     <div class="social-links">
+                        <ul class="d-flex justify-content-md-center justify-content-center justify-content-sm-start">
+                           <li>
+                              <a href="#">
+                              <img src="assets/images/facebook.svg" alt="facebook" class="img-fluid">
+                              </a>
+                           </li >
+                           <li class="mx-3">
+                              <a href="#">
+                              <img src="assets/images/instagram.svg" alt="instagram" class="img-fluid">
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              <img src="assets/images/youtube.svg" alt="youtube" class="img-fluid">
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 my-4 my-md-0">
+                  <div class="footer-wrap text-center text-sm-start">
+                     <p class="fs-28 fw-normal text-white mb-5">
+                        Sign up to our newsletter to hear about helpful advice
+                     </p>
+                     <form >
+                        <div class="newsletter-group position-relative">
+                           <input type="email" placeholder="Enter Email" class="bg-white h-100 w-100 border-0 p-3">
+                           <button type="submit" class="border-0 bg-transparent position-absolute top-50 end-0 translate-middle-y">
+                           <img src="assets/images/send-arrow.svg" alt="Arrow" class="img-fluid">
+                           </button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <div class="copy-right py-4 text-center text-sm-start">
+               <p class="fs-16 text-white mb-0">
+                  © copyright 2025 All rights reserved    |  Trust Point Estate Planning Services <br>
+                  Web design by ElevateOM
+               </p>
+            </div>
+         </div>
+      </footer>
+      <script src="assets/js/jquery-3.7.1.js"></script>
+      <script src="assets/js/wow.js"></script>
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <script>new WOW({ animateClass: 'animate__animated' }).init();</script>
+   </body>
 </html>
